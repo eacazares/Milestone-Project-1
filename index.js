@@ -1,26 +1,25 @@
-for(let i = 0; i < questions.length; i++){
+const triviaQuestions = document.getElementById('questions-container')
+const triviaAnswers = document.getElementByClass('button')
 
-}
+
 
 const questions = [
     {
         question: 'What year was the original Star Wars movie released?',
         
-        answers: {
-            A: '1979'
-            B: '1984'
-            C: '1977'
-            D: '1981'
-        }
-    },
-    {
-        question: "What is the name of Chewbacca's homeworld?"
+        answers: [
+            '1979',
+            '1984',
+            '1977',
+            '1981'
+        ],
 
-        answers: {
-            A: 'Hoth'
-            B: 'Kashyyyk'
-            C: 'Malachor V'
-            D: 'Dagobah'
-        }
+        correctAnswer: 2
     }
 ]
+
+function displayQuestion(question){
+    triviaQuestions.innerText = question
+}
+
+displayQuestion(question)
