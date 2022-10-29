@@ -5,5 +5,57 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
+    background-color: black;
+    
 }
+
+#main-container {
+
+    width: 900px;
+    height: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 40px 15px deepskyblue;
+    
+
+
+    
+}
+
+#questions-container {
+    font-size: 40px;
+    width: auto;
+    height: 20%;
+    border: solid;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0px 0px 10px 3px deepskyblue;
+
+}
+
+.button {
+    display: block;
+    width: 80%;
+    height: 12%;
+    padding: 7px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+#next {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+
+
